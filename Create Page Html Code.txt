@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>create</title>
+    </head>
+    <body>
+        <br><br>
+        <h1 align="center">CREATE DATA</h1>
+        <form action="/store" method="POST">
+        <table border="5" align="center">
+            <tr align="center"><td align="center">STUDENT REGID</td><td><input type="text" name="STUDENT REGID" value=" "></td></tr>
+            <tr align="center"><td align="center">STUDENT NAME</td><td><input type="text" name="STUDENT NAME" value=" "></td></tr>
+            <tr align="center"><td align="center">STUDENT SURNAME</td><td><input type="text" name="STUDENT SURNAME" value=" "></td></tr>
+            <tr align="center"><td align="center">STUDENT COURSE</td><td><input type="text" name="STUDENT COURSE" value=" "></td></tr>
+            <tr align="center"><td align="center">STUDENT CONTACT</td><td><input type="text" name="STUDENT CONTACT" value=" "></td></tr>
+        </table>
+            <h2 align="center">
+				<a href="/form"><button>Insert</button></a>
+			</h2>
+        </form>
+    </body>
+</html>

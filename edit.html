@@ -1,0 +1,26 @@
+<html>
+		<head>
+			<title>edit/update</title>
+		</head>
+		<body>
+			<br><br>
+			<h1 align="center">EDIT/UPDATE DATA</h1>
+			<form action="/update/{{d.0}}" method="POST">
+				<table border="5" align="center">
+					<tr align="center"><td align="center">STUDENT REGID  :</td>
+						<td><input type="text" name="title" value="{{d.1}}"/></td></tr>
+					<tr align="center"><td align="center">STUDENT NAME  :</td>
+						<td><input type="text" name="detail" value="{{d.2}}"/></td></tr>
+					<tr align="center"><td align="center">STUDENT SURNAME   :</td>
+						<td><input type="text" name="date" value="{{d.3}}"/></td></tr>
+					<tr align="center"><td align="center">STUDENT COURSE   :</td>
+						<td><input type="text" name="date" value="{{d.4}}"/></td></tr>
+					<tr align="center"><td align="center">STUDENT CONTACT   :</td>
+						<td><input type="text" name="date" value="{{d.5}}"/></td></tr>
+				</table>
+				<h2 align="center">
+					<a href="/form"><button>Edit/Update</button></a>
+				</h2>
+			</form>
+		</body>
+</html>

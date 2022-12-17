@@ -1,0 +1,33 @@
+<html>
+		<head>
+			<title>Home Page</title>
+		</head>
+         <body>
+		 	<br><h1 align="center">STUDENT MANAGEMENT SYSTEM</h1><br>
+			<table border="5" align="center">
+				<tr>
+					<th>|	STUDENT REGID 	|</th>
+					<th>|	STUDENT NAME 	|</th>
+					<th>|	STUDENT SURNAME 	|</th>
+					<th>|	STUDENT COURSE 	|</th>
+					<th>|	STUDENT CONTACT 	|</th>
+					<th>|	EDIT 	|</th>
+					<th>|	DELETE 	|</th>
+				</tr>
+				{%for x in d: %}
+				<tr>
+					<td align="center">{{x.1}}</td>
+					<td align="center">{{x.2}}</td>
+					<td align="center">{{x.3}}</td>
+					<td align="center">{{x.4}}</td>
+					<td align="center">{{x.5}}</td>
+					<td align="center"><a href="/edit/{{x.0}}"> <button>Edit</button> </a></td>
+					<td align="center"><a href="/delete/{{x.0}}"> <button>Delete</button> </a></td>
+				</tr>
+				{% endfor %}
+			</table>
+		    <h2 align="center">
+				<a href="/form"><button>Create</button></a>
+			</h2>
+		</body>
+</html>
