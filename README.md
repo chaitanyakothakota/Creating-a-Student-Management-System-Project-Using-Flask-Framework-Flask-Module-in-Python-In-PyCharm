@@ -1,0 +1,2 @@
+# Creating-a-Student-Management-System-Project-Using-Flask-Framework-Flask-Module-in-Python-In-PyCharm
+In This Project Create a Website of Student Management System that Contains Students Data. In this Website Contains Create (Adding) of Student Details, Editing of Student Details, Deleting of Students details Options to connect to Student Management System Database. This Project Connecting Python with MySQL Database.
